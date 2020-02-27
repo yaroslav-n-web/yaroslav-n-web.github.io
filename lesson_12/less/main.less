@@ -1,0 +1,33 @@
+.header {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 60px auto;
+  span {display: block;}
+
+  &:hover {background-color: #000000}
+}
+
+.font(@fz: 20px) {
+  font-size: @fz  20px;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+@background; 0f0f0f;
+
+
+
+
+.header {
+  .font;
+}
+
+.section-header {
+  .font;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+span {
+  .font
+}
