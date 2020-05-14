@@ -1,0 +1,21 @@
+.love {
+    background: url(img/love-bg.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-family: SWItalc;
+    font-size: 2rem;
+    color: thistle;
+}
